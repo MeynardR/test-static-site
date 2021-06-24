@@ -34,6 +34,7 @@ main, footer {
 #menu-2 {
 	display: flex;
 	justify-content: center;
+	margin-top: 10vh;
 }
 
 #menu-2 article {
@@ -41,53 +42,50 @@ main, footer {
 	margin-right: 3%;
 }
 
+#nextsec {
+	position: relative;
+	top: -20vh;
+}
+
 #howto {
 	padding-top: 15vh;
-	position: relative;
-	top: -30vh;
 }
 
 #corporate {
 	display: flex;
 	margin-left: 13vw;
 	margin-right: 13vw;
+	position: relative;
+	top: 10vh;
 }
 
 #corporate img {
 	width: 100%;
 	height: 35vh;
-	position: relative;
-	top: -20vh;
 }
 
-#imgmes {
+.imgmes {
 	position: relative;
-	top: -25vh;
+	top: -30vh;
 }
 
-#imgmes h1 {
+.imgmes h1 {
 	font-weight: bold;
 	color: orangered;
 	position: relative;
 	left: -5vw;
-	top: -20vh;
+	top: 6vh;
 }
 
-#imgmes h3 {
+.imgmes h3 {
 	position: relative;
 	left: 0.5vw;
-	top: -26vh;
 }
 
-#imgmes p {
+.imgmes p {
 	position: relative;
-	top: -25vh;
 	margin-left: 4.5vw;
 	margin-right: 4.5vw;
-}
-
-#corporate1 {
-	margin-top: -35vh;
 }
 
 #corporate1 img {
@@ -96,7 +94,43 @@ main, footer {
 }
 
 #corptxt {
+	margin-left: 15vw;
 	position: relative;
 	top: -20vh;
-	margin-left: 15vw;
+}
+
+#term {
+	background-color: #0f0f0f;
+	padding-top: 10vh;
+}
+
+footer {
+	padding: 1vh;
+}
+
+footer a, footer a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+/*mobile style*/
+@media only screen and (max-width: 400px) {
+	
+	#hondaImg {
+		width: 55%;
+	}
+
+}
+
+/*tablet style*/
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+	
+}
+
+/*desktop style*/
+@media only screen and (min-width: 961px) {
+	/*section {
+		background-color: yellow;
+	}*/
 }
