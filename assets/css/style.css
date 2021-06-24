@@ -99,17 +99,7 @@ main, footer {
 	top: -20vh;
 }
 
-#term {
-	background-color: #0f0f0f;
-	padding-top: 10vh;
-}
-
-footer {
-	padding: 1vh;
-	background-color: #0f0f0f;
-}
-
-footer a, footer a:hover {
+footer a:hover {
 	text-decoration: none;
 	color: white;
 }
