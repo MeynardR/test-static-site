@@ -106,6 +106,7 @@ main, footer {
 
 footer {
 	padding: 1vh;
+	background-color: #0f0f0f;
 }
 
 footer a, footer a:hover {
