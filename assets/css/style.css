@@ -1,12 +1,13 @@
-* {
+html {
+	scroll-behavior: smooth;
+}
+
+body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 
-html {
-	scroll-behavior: smooth;
-}
 
 header {
 	background-color: black;
@@ -19,16 +20,20 @@ nav {
 	background-color: black;
 }
 
+.container {
+	padding: 1vh 1vw;
+}
+
+#features {
+	padding-top: 17vh;
+}
+
 main {
 	padding-top: 17vh;
 }
 
 main, footer {
 	background-color: black;
-}
-
-#features {
-	padding-top: 17vh;
 }
 
 #menu-2 {
@@ -64,12 +69,12 @@ main, footer {
 	height: 35vh;
 }
 
-.imgmes {
+#imgmes {
 	position: relative;
 	top: -30vh;
 }
 
-.imgmes h1 {
+#imgmes h1 {
 	font-weight: bold;
 	color: orangered;
 	position: relative;
@@ -77,12 +82,12 @@ main, footer {
 	top: 6vh;
 }
 
-.imgmes h3 {
+#imgmes h3 {
 	position: relative;
 	left: 0.5vw;
 }
 
-.imgmes p {
+#imgmes p {
 	position: relative;
 	margin-left: 4.5vw;
 	margin-right: 4.5vw;
@@ -99,6 +104,10 @@ main, footer {
 	top: -20vh;
 }
 
+#term {
+	clear: both;
+}
+
 footer a:hover {
 	text-decoration: none;
 	color: white;
@@ -111,6 +120,10 @@ footer a:hover {
 		width: 55%;
 	}
 
+	section {
+		display: flex;
+	}
+
 }
 
 /*tablet style*/
@@ -121,7 +134,5 @@ footer a:hover {
 
 /*desktop style*/
 @media only screen and (min-width: 961px) {
-	/*section {
-		background-color: yellow;
-	}*/
+	
 }

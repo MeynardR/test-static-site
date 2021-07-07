@@ -2,8 +2,9 @@
 <html>
 <head>
 	<title>leadermarketing.com.au/win-honda-hr-v</title>
-		<!-- Custom CSS -->
-		<link rel="stylesheet" href="assets/css/style.css">
+
+		<!-- Mobile Responsive Meta Tag -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
 		<!-- Font Awesome -->
 		<script src="https://kit.fontawesome.com/8e97c30ac7.js" crossorigin="anonymous"></script>
@@ -12,13 +13,16 @@
 		<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 
 		<!-- Bootstrap -->
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-		<!-- Mobile Responsive Meta Tag -->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="assets/css/style.css">
 
 		<!-- Scroll Animation -->
 		<script src="https://unpkg.com/scrollreveal"></script>
+
+		<!--JQuery-->
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 </head>
 
@@ -29,11 +33,16 @@
    <!-- NAVBAR -->
 	  <nav class="fixed-top">
 		  <div class="container d-flex justify-content-around">
-		        <a class="nav-link text-white" href="#home"><img src="assets/images/leade.png"></a>
-		        <a class="nav-link text-white" href="#features">FEATURES</a>
-		        <a class="nav-link text-white" href="#howto">HOW TO WIN</a>
+			  <span>
+				<a class="nav-link text-white" href="#home"><img src="assets/images/leade.png"></a>
+			  </span>
+			  <span class="container d-flex justify-content-around">
+				<a class="nav-link text-white" href="#features">FEATURES</a>
+				<a class="nav-link text-white" href="#howto">HOW TO WIN</a>
 		        <a class="nav-link text-white" href="#term">TERMS AND CONDITIONS</a>
-				<a class="nav-link text-white btn btn-lg btn-danger" href="https://www.leadersystems.com.au/home.html" target="_blank">SIGN UP</a>	
+				<a class="nav-link text-white btn btn-danger text-center" href="https://www.leadersystems.com.au/home.html" target="_blank">SIGN UP</a>
+			  </span>
+
 		  </div>
 	  </nav>
 
@@ -149,11 +158,7 @@
 		<p>© 2021 Leader Computers. All rights reserved. <a style="text-decoration: none; color: white" href="https://www.leadersystems.com.au/home.html">Terms of Use</a> <a style="text-decoration: none; color: white" href="#home">Privacy</a> <a style="text-decoration: none; color: white" href="https://www.leadersystems.com.au/contactusfordeler.html">Contact Us</a></p>
 	</footer>
 
-	<!-- Bootstrap -->
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-
+	<!--Animation scripting-->
 	<script>
 		window.sr = ScrollReveal();
 		sr.reveal('#hondaImg', {
@@ -206,11 +211,11 @@
 			origin: 'top',
 			distance: '500px'
 		});
-		sr.reveal('#carimg', {
-			duration: 6000,
-			origin: 'right',
-			distance: '1400px'
-		});
+		// sr.reveal('#carimg', {
+		// 	duration: 6000,
+		// 	origin: 'right',
+		// 	distance: '1400px'
+		// });
 	</script>
 
 </body>
