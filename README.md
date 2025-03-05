@@ -1,2 +1,2 @@
-# leader-app
-leader-app
+# static
+static
